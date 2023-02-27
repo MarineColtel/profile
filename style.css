@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+body {
+  background-color: #fefae0;
+  color: #343a40;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container {
+  border: #fefcfb;
+  background-color: #fefcfb;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 2%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.text-align {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.button {
+  background-color: #219ebc;
+  border: #fefcfb;
+  font-weight: bold;
+  font-size: medium;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.button:hover {
+  background-color: #023e8a;
+}
+
+h1 {
+  font-size: 22px;
+  color: #219ebc;
+  font-family: "Raleway", sans-serif;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 20px;
+  color: #023e8a;
+  font-family: "Raleway", sans-serif;
+  line-height: 1;
+}
+
+li {
+  color: #fefae0;
+}
+
+i {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+a:hover {
+  color: #219ebc;
+}
+
+.i-color {
+  color: #219ebc;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
